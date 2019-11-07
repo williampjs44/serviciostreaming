@@ -1,0 +1,22 @@
+header div {
+    float: right;
+    list-style: none;
+    font-size: 15px;
+}
+
+aside{
+    float: left;
+    list-style: none;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+aside li {
+    padding-top: 10px;
+}
+
+video {
+    padding-left: 50px;
+}
