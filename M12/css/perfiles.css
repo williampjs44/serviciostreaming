@@ -1,0 +1,9 @@
+div.datosperfil ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#detalle > div {
+    display: none;
+}

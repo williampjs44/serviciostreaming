@@ -1,0 +1,136 @@
+body {
+    background: url(/img/CUADORS.png);
+}
+header div ul {
+    float: right;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    color: white;
+}
+
+div#imagencont{
+    width: 100%;
+    position: relative;
+}
+
+div#imagenes{
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    margin: 0 5%;
+    width: 90%;
+}
+
+div#imagencont ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5000px;
+    padding: 0;
+    margin: 0;
+    /*animation: mislider 5s linear infinite both;*/
+}
+/*
+@keyframes mislider {
+    0% {
+        left: 0;
+    }
+    
+    100%{
+        left: -2000px;
+    }
+}
+*/
+
+h2 {
+    
+}
+
+div#imagencont ul li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: left;
+}
+
+div#arrows .izquierda{
+    position: absolute;
+    z-index: 10;
+        color: red;
+    left: 0px;
+    font-size: 40px;
+    top: 90px;
+}
+
+div#arrows .derecha{
+    position: absolute;
+    z-index: 10;
+        color: blue;
+    right: 0;
+    font-size: 40px;
+    top: 90px;
+    float: right;
+    opacity: 0.1;
+}
+
+header div ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+header div ul li:hover{
+}
+
+div#main{
+    overflow: auto;
+}
+
+div#main aside{
+    width: 10%;
+    float: left;
+}
+div#contenedor{
+    width: 80%;
+    float: right;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+aside.publicidad {
+    float: right !important;
+}
+
+aside ul li {
+     list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+video {
+    padding-left: 50px;
+}
+img.categorias {
+    width: 210px;
+    height: 150px;
+}
+
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 2px;
+}
+footer ul li i:before{
+    font-size: 40px;
+}
