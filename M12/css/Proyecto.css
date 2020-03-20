@@ -1,6 +1,8 @@
 body {
-    background: url(/img/CUADORS.png);
+    background: url(../img/CUADORS.png);
+    color: white;
 }
+/* CABECERA */
 header div ul {
     float: right;
     list-style: none;
@@ -8,11 +10,56 @@ header div ul {
     color: white;
 }
 
-header h1 {
-    display: inline-block;
+header a {
     color: white;
 }
 
+header h1 {
+    display: inline-block;
+}
+
+header div ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+/* MAIN */
+div#main{
+    overflow: auto;
+}
+
+div#main aside{
+    width: 10%;
+    float: left;
+}
+div#contenedor{
+    width: 80%;
+    float: right;
+}
+
+h1 {
+    padding-left: 30px;
+}
+/* BARRAS LATERALES */
+aside.publicidad {
+    float: right !important;
+}
+
+aside ul li {
+     list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+/* VIDEO */
+video {
+    padding-left: 50px;
+}
+img.categorias {
+    width: 210px;
+    height: 150px;
+}
+
+/* VIDEOJUEGOS DESTACADOS */
 div#imagencont{
     width: 100%;
     position: relative;
@@ -35,6 +82,7 @@ div#imagencont ul{
     margin: 0;
     /*animation: mislider 5s linear infinite both;*/
 }
+
 /*
 @keyframes mislider {
     0% {
@@ -47,9 +95,7 @@ div#imagencont ul{
 }
 */
 
-h2 {
-    
-}
+
 
 div#imagencont ul li{
     padding: 0;
@@ -78,51 +124,7 @@ div#arrows .derecha{
     opacity: 0.1;
 }
 
-header div ul li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 5px;
-}
-
-header div ul li:hover{
-}
-
-div#main{
-    overflow: auto;
-}
-
-div#main aside{
-    width: 10%;
-    float: left;
-}
-div#contenedor{
-    width: 80%;
-    float: right;
-}
-
-h1 {
-    padding-left: 30px;
-}
-
-aside.publicidad {
-    float: right !important;
-}
-
-aside ul li {
-     list-style: none;
-    display: inline-block;
-    margin-left: 10px;
-}
-
-video {
-    padding-left: 50px;
-}
-img.categorias {
-    width: 210px;
-    height: 150px;
-}
-
-
+/* PIE DE PÁGINA */
 footer ul{
     list-style: none;
     text-align: center;
