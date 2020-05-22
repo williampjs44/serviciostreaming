@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Prueba proyecto</title>
         <link rel="stylesheet" type="text/css" href="css/Proyecto.css">
+        <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+        <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
     </head>
 
     <body>
@@ -40,21 +42,8 @@
                 </div>
                 <div>
                     <h2>Videos en directo <i class="fas fa-video"></i></h2>
-                    <video width="350" height="200" controls>
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                    </video>
-                    <video width="350" height="200" controls>
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                    </video>
-                    <video width="350" height="200" controls>
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
-                    </video>
-                    <video width="350" height="200" controls>
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
+                    <video class="video-js vjs-default-skin" width="350" height="200" controls preload="none">
+                        <source src="http://192.168.1.20:8080/1234.m3u8" type="application/x-mpegURL">
                     </video>
                 </div>
                 <div id="imagencont">
