@@ -2,14 +2,11 @@
 
 @section('content')
 <div class="container">
-    
-    
 <div class="row">
     <h2 class="text-white col-md-12"><i class="fas fa-video"></i> Videos en directo</h2>
     <video id="player" class="video-js vjs-default-skin col-md-12" width="350" height="500" controls preload="none">
         <source src="http://192.168.1.21:9000/1234.m3u8" type="application/x-mpegURL">
-    </video>
-    
+    </video>   
 </div>
 <div class="row" >
     <h2 class="text-white col-md-12"><i class="fas fa-video"></i> Videojuegos destacados</h2>
