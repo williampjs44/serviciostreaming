@@ -1,12 +1,14 @@
 @extends('layouts.app')
 
-@section('content')
+@section('content')´
+<p class="text-white">Nginx</p>
 <div class="container">
 <div class="row">
     <h2 class="text-white col-md-12"><i class="fas fa-video"></i> Videos en directo</h2>
     <video id="player" class="video-js vjs-default-skin col-md-12" width="350" height="500" controls preload="none">
-        <source src="http://192.168.1.21:9000/1234.m3u8" type="application/x-mpegURL">
-    </video>   
+        <source src="http://coldect.com:9000/1234.m3u8" type="application/x-mpegURL">
+    </video> 
+    <script id="cid0020000251218830846" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 250px;height: 350px;">{"handle":"coldect","arch":"js","styles":{"a":"0084ef","b":100,"c":"FFFFFF","d":"FFFFFF","k":"0084ef","l":"0084ef","m":"0084ef","n":"FFFFFF","p":"10","q":"0084ef","r":100,"t":0,"usricon":0.86,"cnrs":"0.78","fwtickm":1}}</script>  
 </div>
 <div class="row" >
     <h2 class="text-white col-md-12"><i class="fas fa-video"></i> Videojuegos destacados</h2>
@@ -146,3 +148,4 @@
     </script>
     
 @endsection
+

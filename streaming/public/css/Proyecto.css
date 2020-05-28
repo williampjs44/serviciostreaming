@@ -32,9 +32,17 @@ div#main aside{
     width: 10%;
     float: left;
 }
-div#contenedor{
+/* div#contenedor{
     width: 80%;
     float: right;
+} */
+
+#contenedor a{
+    float: left;
+    border: 2px solid white;
+    background-color: white;
+    display: block;
+    padding: 7px;
 }
 
 h1 {

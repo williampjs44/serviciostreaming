@@ -2,8 +2,9 @@
 
 
 @section('content')
-<div class="col-md-10">
+<div class="container">
     <div class="row justify-content-center">
+        <h1 class="col-md-12">categorias</h1>
         <div class="col-md-12">
             <div class="card">
             <div id="contenedor">
@@ -14,7 +15,7 @@
                     <a href=""><img class="categorias" src="img/logohearthstone.png" alt="logo hearthstone" title="logo hearthstone"></a>
                     <a href=""><img class="categorias" src="img/overwatch-logo.png" alt="logo overwatch" title="logo overwatch"></a>
                     <a href=""><img class="categorias" src="img/logofifa1.jpg" alt="logo de fifa" title="logo de fifa"></a>
-                    <a href="categorias.html"><img class="categorias" src="img/heroes%20of.jpeg" alt="heroes of the storm" title="heroes of the storm"></a>
+                    <a href="categorias.html"><img class="categorias" src="/img/logohearthstone.png" alt="heroes of the storm" title="heroes of the storm"></a>
                     <a href="categorias.html"><img class="categorias" src="img/la%20taza.png" alt="just chatting" title="just chatting"></a>
                     <a href="categorias.html"><img class="categorias" src="img/darksoul.jpg" alt="darksouls2" title="darksouls 2"></a>
                     <a href="categorias.html"><img class="categorias" src="img/maker2.jpg" alt="super mario maker 2" title="super mario maker 2"></a>
